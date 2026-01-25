@@ -38,4 +38,10 @@ class Mage : public PlayerTemplate {
       std::cout << NAME_ << " " << HP_ << " " << MANA_ << std::endl;
     }
 };
+class robber : public PlayerTemplate {
+  private:
+   int agile = 0;
+  public:
+   robber(std::string name,int hp, int agile) 
+}
 #endif
